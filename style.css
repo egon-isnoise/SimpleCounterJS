@@ -1,0 +1,42 @@
+html body {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    margin: 20vh;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8vh;
+    font-weight: bold;
+}
+
+#value {
+    font-size: 15vh;
+    text-align: center;
+}
+
+.button-container{
+    display: flex;
+    width: 25vw;
+    justify-content: space-around;
+    margin: 5vh;
+}
+
+.button-container button {
+    background-color: white;
+    padding: 1vh;
+    border: solid 3px black;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 10px 5px 10px;
+
+}
